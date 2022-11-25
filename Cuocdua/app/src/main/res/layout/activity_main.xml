@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/checkbox2" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_above="@id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <SeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="635dp"
+        android:layout_height="48dp"
+        android:layout_above="@id/seekbar2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="193dp"
+        android:layout_toRightOf="@id/checkbox1"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/xe" />
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/seekbar2"
+        android:thumb="@drawable/xe2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@id/seekbar3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toRightOf="@id/checkbox2" />
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+
+        android:id="@+id/seekbar3"
+        android:thumb="@drawable/xe3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/checkbox3" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#f100"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:text="100"  />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="43dp"
+        android:text="Nguyễn Hồng Quân-2050531200257 "
+        android:textColor="#f100"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
